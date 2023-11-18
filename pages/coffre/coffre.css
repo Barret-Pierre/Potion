@@ -1,0 +1,10 @@
+@import url("../../style.css");
+
+.list {
+  margin: 0;
+  font-weight: bold;
+}
+
+input {
+  margin: 1rem;
+}

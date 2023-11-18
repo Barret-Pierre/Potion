@@ -1,9 +1,14 @@
 :root {
   --primary: rgb(0, 102, 51);
   --primary-hover: rgb(9, 142, 72);
+  --poufsoufle: rgb(204, 163, 10);
+  --serdaigle: rgb(10, 94, 204);
+  --grifondor: rgb(204, 23, 10);
+  --serpentard: rgb(0, 102, 51);
 }
 body {
   min-height: 100vh;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,4 +43,24 @@ button.btn {
 button.btn:hover {
   background-color: var(--primary-hover);
   border-color: var(--primary-hover);
+}
+
+.alert {
+  text-align: center;
+}
+
+.poufsoufle {
+  color: var(--poufsoufle);
+}
+
+.serpentard {
+  color: var(--serpentard);
+}
+
+.grifondor {
+  color: var(--grifondor);
+}
+
+.serdaigle {
+  color: var(--serdaigle);
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+  <h1>Les potions de Rogue</h1>
+  <div class="container text-center">
+    <p><span>Vous faites partie de la maison <b class="poufsoufle">Poufsoufle</b> et votre premier cours se fait
+        avec la maison <b class="serpentard">Serpentard</b>.
+        <br> Le professeur Rogue vous demande de ranger ses potions dans le bon ordre.
+        <br> En échange, il vous indiquera peut-être un indice concernant l'élève mystérieux.</span>
+    </p>
+    <p>Pour vous aider dans votre tâche, il vous indique ceci :</p>
+    <div>
+      <p>La fiole la plus large contient un mélange de la fiole du centre et une des fioles des extrémités.</p>
+      <p>Il parait que le jus de framboise est apprécié par les mages les plus riches.</p>
+      <p>Les deux fioles des extrémités sont des couleurs complémentaires.</p>
+      <p>Le philtre d'amour n'a pas la couleur qu'il n'y parait</p>
+    </div>
+
+  </div>
+  <div class="alert alert-danger d-none" role="alert">
+    Oups le professeur Rogue est furieux, navrant vous dit-il !
+  </div>
+  <div class="alert alert-success d-none" role="alert">
+    Rogue vous regarde avec dédain, mais vous donne quand même l'indice suivant : <b>Sept</b>
+    <br> Rendez-vous au coffre en suivant ce <a href="./coffre/coffre.html">lien</a>
+  </div>
+  <div class="potion-container">
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole1.svg#Calque_2' href="../../assets/fiole1.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole2.svg#Calque_2' href="../../assets/fiole2.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole3.svg#Calque_2' href="../../assets/fiole3.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole4.svg#Calque_2' href="../../assets/fiole4.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole5.svg#Calque_2' href="../../assets/fiole5.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole6.svg#Calque_2' href="../../assets/fiole6.svg#Calque_2"></use>
+    </svg>
+    <svg class="potion">
+      <use xlink:href='../../assets/fiole7.svg#Calque_2' href="../../assets/fiole7.svg#Calque_2"></use>
+    </svg>
+
+  </div>
+  <button type="button" class="btn btn-primary">Valider</button>
+</body>
+
+<script src="../../script.js"></script>
+
+</html>
