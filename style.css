@@ -1,7 +1,7 @@
 :root {
-  --bs-blue: green;
+  --primary: rgb(0, 102, 51);
+  --primary-hover: rgb(9, 142, 72);
 }
-
 body {
   min-height: 100vh;
   display: flex;
@@ -9,11 +9,18 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  background-image: url("assets/background.jpeg");
+}
+
+p span {
+  font-style: italic;
 }
 
 .potion {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  fill-rule: evenodd;
 }
 
 .potion-container {
@@ -21,4 +28,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+button.btn {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+button.btn:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
 }
